@@ -1,0 +1,40 @@
+# Never commit original game packages or extracted binaries/assets
+*.ipa
+*.obb
+*.xapk
+*.apk
+*.app/
+*.mobileprovision
+
+# Large/distribution archives
+*.zip
+*.7z
+*.rar
+
+# Known game payload names
+aliud.mp4
+aliud.mp4.1
+main.*.com.square_enix.android_googleplay.khuxww.obb
+patch.*.com.square_enix.android_googleplay.khuxww.obb
+KINGDOM HEARTS Unchained x
+
+# Signing / credentials
+*.p12
+*.pfx
+*.cer
+*.key
+*.pem
+
+# Generated work/output
+build/
+dist/
+work/
+output/
+tmp/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
