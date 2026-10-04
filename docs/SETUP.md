@@ -1,19 +1,22 @@
-# Setup
+# Cross Road Setup
 
-Cross Road Native does not distribute the original game.
+A compatible Windows x64 PC, legitimate Apple device software when required,
+a trusted iPhone, internet access, and your own supported game IPA are required.
+No game files or Apple authentication libraries are included in this repository.
 
-## Vanilla baseline
+The frozen v1 GUI handles device status, IPA validation, Apple sign-in, installation,
+Wi-Fi setup, automatic-refresh configuration, manual refresh, and diagnostics.
+The user should not need to configure Splice or Provision manually.
 
-1. Obtain your compatible KHUx/Dark Road iOS package through a source you are authorized to use.
-2. Keep an untouched backup.
-3. Verify it with the project verifier.
-4. Make a working copy before applying any future Cross Road Native patches or mods.
-5. Locally sign/sideload the resulting IPA using a method appropriate for your device and Apple account.
+The first USB connection establishes device trust. Unlock the phone and accept
+Trust when prompted. Use the GUI to install your own IPA and finish refresh setup.
+Future refreshes use the paired Wi-Fi connection when available. Check the status
+page for the last refresh and next check. A successful check with nothing due is
+not a claim that a new refresh occurred.
 
-The currently verified reference build is documented in [SUPPORTED-BUILDS.md](SUPPORTED-BUILDS.md).
+Use official vendor prerequisite sources. Authentication preparation uses the
+selected local bootstrap model; Apple proprietary runtime files are not repository
+or release payloads. Download-at-install-time does not settle their license terms.
 
-## Important
-
-Never upload Apple account credentials, signing certificates, provisioning profiles, or the original IPA to this repository.
-
-Cross Road Native's planned builder will operate locally and will not require game files to be uploaded to project servers.
+Public installer availability remains pending frozen-dependency redistribution
+clearance. No public v1 binary package is supplied by these instructions yet.

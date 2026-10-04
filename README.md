@@ -1,74 +1,38 @@
-# Cross Road Native
+# Cross Road Setup
 
-**Native iOS preservation, tooling, and mod framework for KINGDOM HEARTS Union χ + Dark Road.**
+Install your own compatible Cross Road/KHUx IPA on an iPhone and keep it refreshed
+through a Windows setup app.
 
-Cross Road Native is an independent preservation and modding project built around the final worldwide iOS release of **KINGDOM HEARTS Uχ Dark Road 5.0.1**.
+**Cross Road does not provide or distribute Kingdom Hearts game content.**
+You must supply your own compatible game IPA/files. No game download is included.
 
-The original native iOS build has been verified to install and run on modern iPhone hardware when locally re-signed. This repository is intended to provide verification tools, documentation, optional patches, mods, save tooling, and a future local builder.
+## Download
 
-## Important: no game files are distributed here
+Cross Road Setup v1.0.0 is the frozen, functionally validated Windows implementation.
+A public Windows download has not been published: redistribution clearance for the
+frozen backend and native dependencies remains unresolved. This repository does
+not claim that an installer asset is currently available.
 
-This repository does **not** include the original IPA, game executable, movies, artwork, OBB/data containers, or other Square Enix game assets.
+## Setup experience
 
-Users must provide their own compatible game files. Cross Road Native tooling will verify supported inputs locally before applying any optional modifications.
+The Windows GUI provides the installation and refresh workflow:
 
-## Verified vanilla reference
+1. Open Cross Road Setup and connect/unlock the iPhone when required.
+2. Select your own compatible IPA.
+3. Sign in to Apple through the private authentication dialog when requested.
+4. Choose **Install Cross Road**.
+5. Finish Wi-Fi and automatic-refresh configuration.
 
-| Field | Value |
-|---|---|
-| Region | Worldwide / English |
-| Version | 5.0.1 |
-| Build | 00000089 |
-| Bundle ID | `com.square-enix.kingdomheartsxww` |
-| IPA size | 2,263,753,816 bytes |
-| IPA SHA-256 | `EDA2A464E9148A604B56B867EA337EBF92921FE298794D498252E345A5751DBD` |
+After setup, the PC and iPhone need to share a reachable local network. Refresh
+checks run every six hours and after Windows sign-in. Keep the PC awake and signed
+in. An unavailable or locked phone can delay refresh; unlock it and use the status
+page or **Refresh Now** when attention is needed.
 
-The reference IPA contains native ARMv7 and ARM64 code. The preserved reference executable is decrypted (`cryptid = 0`) and the vanilla build has been confirmed working after local signing on a modern iPhone.
+Apple passwords and verification codes belong only in the private sign-in dialog.
+Do not put them in issues, screenshots, or diagnostic uploads. Keep Defender enabled.
 
-## Shared game data
+See [setup](docs/SETUP.md), [troubleshooting](docs/TROUBLESHOOTING.md),
+[release notes](RELEASE-NOTES.md), and [license information](LICENSE-INFO.md).
 
-Research confirmed that the two large data containers in the iOS release are byte-for-byte identical to the final worldwide Android 5.0.1 OBBs:
-
-| iOS file | Android equivalent | Bytes | SHA-256 |
-|---|---|---:|---|
-| `aliud.mp4` | `main.76.com.square_enix.android_googleplay.khuxww.obb` | 1,652,397,828 | `5C08D36B4456045FA44A760EBEAC38792DE69DE7060275891FBE8E8F4F8716D8` |
-| `aliud.mp4.1` | `patch.87.com.square_enix.android_googleplay.khuxww.obb` | 533,504,978 | `B771B01D955E8B4F909BD2304C1266B67C357432AD651B767E46F476A60E927F` |
-
-This gives the project a common content baseline for future Android/iOS tooling and mods.
-
-## Project goals
-
-- Preserve a known-good native iOS 5.0.1 baseline.
-- Verify user-supplied files before touching them.
-- Keep the pristine source IPA untouched and modify working copies only.
-- Build optional, auditable mods and quality-of-life improvements.
-- Improve save import/export and backup workflows.
-- Develop a local builder/patcher that never uploads users' game files.
-- Share compatible content-mod tooling between native iOS and Android where practical.
-- Document modern iOS signing/sideloading without redistributing the game.
-
-## Repository layout
-
-- `docs/` — setup, supported-build and modding documentation.
-- `tools/verify/` — local input verification tools.
-- `mods/` — mod specifications and future optional mods.
-- `patches/` — patch manifests and compatibility patches. No original game binaries.
-- `LEGAL.md` — project boundaries and attribution.
-
-## Status
-
-**Early research / native baseline confirmed.**
-
-The immediate next milestone is a small local verifier/builder that recognizes the supported vanilla 5.0.1 IPA and prepares a working copy for optional modifications.
-
-## Related work
-
-Cross Road Native is separate from the browser/PWA Cross Road iOS adaptation. The browser project remains useful for preservation and research, but this repository focuses on the original native iOS runtime.
-
-## Attribution
-
-KINGDOM HEARTS, KINGDOM HEARTS Union χ, KINGDOM HEARTS Dark Road, and related game assets are property of their respective rights holders, including Disney and Square Enix.
-
-This project is unofficial, fan-made, non-commercial, and is not affiliated with or endorsed by Disney or Square Enix.
-
-See [LEGAL.md](LEGAL.md) for additional project boundaries.
+This project is unofficial and is not affiliated with Apple, Disney, or Square Enix.
+Kingdom Hearts and related game content belong to their respective rights holders.

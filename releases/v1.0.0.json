@@ -1,0 +1,14 @@
+{
+  "name": "Cross Road Setup",
+  "version": "1.0.0",
+  "functionalState": "frozen and accepted",
+  "publicBinaryRelease": "held; no asset published",
+  "neutralSpliceSha256": "36e90cd0305a96103cee0880fce971187588242b8f43b9ec40f0e3dfa04a81bc",
+  "neutralGuiSha256": "ac1e1c9890485f872886f9dab7b359076ad255ece41862d570f42b1bc9082e24",
+  "gameContentIncluded": false,
+  "appleAuthenticationLibrariesIncluded": false,
+  "failedExperimentalReplacementIncluded": false,
+  "scheduledCheckIntervalHours": 6,
+  "checkAfterWindowsSignIn": true,
+  "privateBackupReferencedOrUploaded": false
+}
