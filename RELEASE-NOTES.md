@@ -1,20 +1,22 @@
 # Cross Road Setup v1.0.0
 
-Functional implementation frozen. Failed experimental native/Wi-Fi replacement
-components are excluded from v1. Existing known-good binaries, integration,
-Wi-Fi support, signing/install, and scheduled-refresh behavior are preserved.
+Frozen local-anisette GUI/Splice with the Windows device DLL rebuilt for OpenSSL
+3.6.5 (Apache-2.0). No Splice, Wi-Fi, signing, anisette or GUI source behavior changed.
+All 287 original DLL exports retained; the DLL loads; frozen Splice detected and
+read the iPhone over Wi-Fi with USB disconnected. Original stack/backups preserved.
 
-Accepted results: GUI installation, signing, Wi-Fi refresh without USB, scheduled
-refresh, reboot/sign-in persistence, app launch, and save preservation. The neutral
-reference build was byte-identical on repeated builds. Defender remained enabled.
-These accepted results were not rerun during packaging.
+Extract the ZIP and double-click Cross Road Setup.cmd. The launcher obtains
+hash-verified device prerequisites from their publisher and Python from Python.org.
+Apple's official Windows drivers/device software and Bonjour remain prerequisites.
+Supply your own compatible worldwide IPA. Original prototype labels remain.
+Six-hour/sign-in scheduling requires Windows signed in and awake.
 
-The GUI includes device/authentication status, user-owned IPA selection/validation,
-installation progress, status/expiration/refresh health, Refresh Now, and diagnostics.
-Automatic checks run every six hours and after sign-in. No game content is supplied.
-Apple authentication libraries/APKs and all private account/signing/device/save
-state are excluded from public packaging.
+No game content, user saves, credentials/session state, device identifiers, signing
+keys/profiles, Apple Music APK, CoreADI or storeservicescore binaries are included.
+No remote anisette or failed experimental replacements are included.
+The unchanged local Apple-auth bootstrap has unresolved Android-on-Windows use
+licensing uncertainty; local acquisition does not establish Apple permission.
 
-Public binary release: not published. The frozen OpenSSL 1.1.1i/GPL backend
-combination and historical native corresponding-source/license obligations remain
-unresolved. No experimental replacement is being substituted to claim clearance.
+Corresponding GPL/LGPL source, build material, licenses/notices and the exact
+manifest are included. The native-only validation does not claim a new full
+clean-PC install or another end-to-end signing/save regression.
