@@ -1,36 +1,31 @@
-# Cross Road Setup
+# Re:Awaken
 
-Install your own compatible Cross Road/KHUx worldwide IPA on an iPhone and keep
-it refreshed from Windows. **No game files are provided.**
+Created by qqCLUTCHYqq
 
-## Download v1.0.0
+A Windows setup and preservation utility for KHUX + Dark Road 5.0.1 WW on your iPhone.
 
-[Download the public Windows ZIP](https://github.com/qqCLUTCHYqq/cross-road-ios-native/releases/tag/v1.0.0).
-Extract the whole ZIP and double-click **Cross Road Setup.cmd**. First launch
-obtains hash-pinned device prerequisites from their publisher and the official
-Python refresh runtime. Install Apple's official Windows device software/drivers
-and Bonjour as prerequisites. Connect/unlock the iPhone and accept Trust.
+## Download
 
-Select your own compatible IPA, authenticate in the private Apple dialog, then
-click Install Cross Road. Finish Wi-Fi / automatic refresh configures the existing
-six-hour and Windows-sign-in schedule. Use Status & refresh / Refresh Now when needed.
-Windows must remain awake and signed in; unlock the iPhone if unavailable on Wi-Fi.
-The original prototype labels and separate prototype bundle ID are retained in v1.
+[Re:Awaken v1.0.0](https://github.com/qqCLUTCHYqq/cross-road-ios-native/releases/tag/reawaken-v1.0.0)
 
-Splice and the GUI are the unchanged frozen implementation. imobiledevice.dll is
-rebuilt from pinned Windows upstream source for OpenSSL 3.6.5; all original exports
-remain. Frozen Splice successfully read the iPhone over Wi-Fi with USB absent.
-The pre-existing signing/refresh/save tests belong to the frozen application; a
-new complete clean-PC installation was not performed for this native-only update.
+Download `ReAwaken-v1.0.0-PUBLIC.zip`, extract the entire archive, and open **ReAwaken Setup.cmd**. Follow the built-in instructions. The launcher installs the packaged application and obtains the documented prerequisites from their pinned upstream sources.
 
-Local anisette is retained. Apple Music APK and Apple Android authentication
-libraries are not included. Their local bootstrap's Windows-use licensing remains
-uncertain and is expressly documented, not represented as approved by Apple.
-Remote anisette and failed experimental replacements are excluded.
+You must provide your own legally obtained **KHUX + Dark Road 5.0.1 WW `.ipa`**. The filename does not matter; the application checks the IPA contents and version. No game files are included.
 
-Never share passwords, 2FA codes, sessions, signing keys or game saves in issues.
-Keep Defender enabled. See the ZIP's README, license texts, corresponding source,
-build instructions and manifest. The GUI remains proprietary; Splice is GPLv3.
+Connect and unlock your iPhone for initial setup. Sign in to Apple when prompted, select your IPA, and choose Install Re:Awaken. The existing Splice backend handles signing, installation, paired Wi-Fi refresh, and scheduled checks every six hours and after Windows sign-in. Keep the PC running and the paired iPhone reachable on the same network; unlock it if connection is unavailable.
 
-This unofficial project is not affiliated with Apple, Square Enix or Disney.
-Kingdom Hearts game content belongs to its rights holders and is user-supplied.
+## Support
+
+[Discord](https://discord.gg/jHWEkRdjJb) · [Issues](https://github.com/qqCLUTCHYqq/cross-road-ios-native/issues)
+
+If you don’t like this art, make me something to replace it.
+
+## Licensing and source
+
+The Re:Awaken interface is proprietary. Third-party components retain their respective licenses. The downloadable package includes license texts, notices, corresponding Splice/native-library source, and build material. See its `LICENSE-INFO.txt`, `THIRD-PARTY-NOTICES.md`, and `corresponding-source` directory.
+
+The working local anisette bootstrap is preserved. Apple Music APK and Apple authentication libraries are **not bundled**; bootstrap obtains required components locally. The previously documented Apple Android-on-Windows licensing uncertainty remains unresolved and is disclosed for v1. This is not a representation that Apple has granted redistribution or cross-platform-use permission.
+
+Re:Awaken is a fan-made preservation utility and is not affiliated with Square Enix or Disney. No game content, saves, Apple credentials, sessions, private keys, or device identifiers are distributed.
+
+The original [Cross Road v1.0.0 release](https://github.com/qqCLUTCHYqq/cross-road-ios-native/releases/tag/v1.0.0) remains available as a rollback point.
