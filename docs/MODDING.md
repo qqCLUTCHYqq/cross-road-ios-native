@@ -1,6 +1,6 @@
 # Modding model
 
-Cross Road Native mods should be optional, independently auditable, and reversible.
+Re:Awaken mods should be optional, independently auditable, and reversible.
 
 ## Principles
 
