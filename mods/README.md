@@ -1,6 +1,6 @@
 # Mods
 
-Optional Cross Road Native mods will live here.
+Optional Re:Awaken mods will live here.
 
 No original game binaries or assets belong in this directory.
 
