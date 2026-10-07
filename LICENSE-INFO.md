@@ -1,4 +1,4 @@
-Cross Road Setup GUI: original proprietary code. Permission is granted to
+Re:Awaken GUI: original proprietary code. Permission is granted to
 redistribute this unmodified public package without game content. No GUI source
 license is granted. Separate GPL/LGPL components retain their own terms.
 
