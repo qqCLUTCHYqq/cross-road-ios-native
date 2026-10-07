@@ -18,15 +18,13 @@ Connect and unlock your iPhone for initial setup. Sign in to Apple when prompted
 
 [Discord](https://discord.gg/jHWEkRdjJb) · [Issues](https://github.com/qqCLUTCHYqq/reawaken-ios/issues)
 
-If you don’t like this art, make me something to replace it.
-
 ## Licensing and source
 
 The Re:Awaken interface is proprietary. Third-party components retain their respective licenses. The downloadable package includes license texts, notices, corresponding Splice/native-library source, and build material. See its `LICENSE-INFO.txt`, `THIRD-PARTY-NOTICES.md`, and `corresponding-source` directory.
 
 The working local anisette bootstrap is preserved. Apple Music APK and Apple authentication libraries are **not bundled**; bootstrap obtains required components locally. The previously documented Apple Android-on-Windows licensing uncertainty remains unresolved and is disclosed for v1. This is not a representation that Apple has granted redistribution or cross-platform-use permission.
 
-Re:Awaken is a fan-made preservation utility and is not affiliated with Square Enix or Disney. No game content, saves, Apple credentials, sessions, private keys, or device identifiers are distributed.
+Re:Awaken is a fan-made preservation utility and is not affiliated with Square Enix or Disney. No game IPA, saves, Apple credentials, sessions, private keys, or device identifiers are distributed. The interface includes Daybreak Town background artwork; Kingdom Hearts artwork remains the property of its respective owners.
 
 The original [Cross Road v1.0.0 release](https://github.com/qqCLUTCHYqq/reawaken-ios/releases/tag/v1.0.0) remains available as a rollback point.
 
@@ -43,3 +41,9 @@ Settings → General → VPN & Device Management → Developer App → select th
 This may be required after the initial development-signed installation and normally does not need to be repeated for routine refreshes using the same trusted profile.
 
 Version 1.0.4 sets the installed iOS app name to **Re:Awaken** without changing its bundle identifier. Do not delete the existing app or its data.
+
+## Re:Awaken iOS v1.0.6
+
+A continuous Daybreak Town background now spans the interface, with translucent panels and a Kingdom Hearts-style typographic wordmark. Home, Install, Sign & Refresh, Tools, Settings, About and the integrated Save Editor retain their existing functions. No AI-generated artwork is packaged in this version.
+
+Update through **Settings → Check for Updates**, or download the latest ZIP and launch its top-level **ReAwaken.exe**. Updating the Windows interface does not require reinstalling the iOS game. Existing settings, signing identity, selected IPA, backups and automatic-refresh configuration are preserved.
