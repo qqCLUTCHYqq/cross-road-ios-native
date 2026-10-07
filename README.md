@@ -33,3 +33,13 @@ The original [Cross Road v1.0.0 release](https://github.com/qqCLUTCHYqq/reawaken
 ## Repository migration
 
 The repository is now `qqCLUTCHYqq/reawaken-ios`. Re:Awaken 1.0.3 and later check this location for stable updates. Users on 1.0.2 or earlier must download and open 1.0.3 once because those older updaters require the previous repository name. Existing settings, signing identity and refresh configuration are preserved.
+
+## First launch on iOS
+
+If iOS shows **“Untrusted Developer”** on first launch:
+
+Settings → General → VPN & Device Management → Developer App → select the Apple developer profile used by Re:Awaken → Trust
+
+This may be required after the initial development-signed installation and normally does not need to be repeated for routine refreshes using the same trusted profile.
+
+Version 1.0.4 sets the installed iOS app name to **Re:Awaken** without changing its bundle identifier. Do not delete the existing app or its data.
