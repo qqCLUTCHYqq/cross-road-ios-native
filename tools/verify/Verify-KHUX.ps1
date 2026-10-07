@@ -17,7 +17,7 @@ if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) {
 
 $file = Get-Item -LiteralPath $Path
 
-Write-Host "Cross Road Native - KHUX verifier" -ForegroundColor Cyan
+Write-Host "Re:Awaken - KHUX verifier" -ForegroundColor Cyan
 Write-Host "File: $($file.FullName)"
 Write-Host ("Bytes: {0:N0}" -f $file.Length)
 Write-Host "Calculating SHA-256..."
