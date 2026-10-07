@@ -6,9 +6,9 @@ A Windows setup and preservation utility for KHUX + Dark Road 5.0.1 WW on your i
 
 ## Download
 
-[Re:Awaken v1.0.0](https://github.com/qqCLUTCHYqq/cross-road-ios-native/releases/tag/reawaken-v1.0.0)
+[Latest Re:Awaken release](https://github.com/qqCLUTCHYqq/reawaken-ios/releases/latest)
 
-Download `ReAwaken-v1.0.0-PUBLIC.zip`, extract the entire archive, and open **ReAwaken Setup.cmd**. Follow the built-in instructions. The launcher installs the packaged application and obtains the documented prerequisites from their pinned upstream sources.
+Download the latest `ReAwaken-vX.Y.Z-PUBLIC.zip`, extract the entire archive, and open **ReAwaken.exe**. Follow the built-in instructions. The launcher installs the packaged application and obtains the documented prerequisites from their pinned upstream sources.
 
 You must provide your own legally obtained **KHUX + Dark Road 5.0.1 WW `.ipa`**. The filename does not matter; the application checks the IPA contents and version. No game files are included.
 
@@ -16,7 +16,7 @@ Connect and unlock your iPhone for initial setup. Sign in to Apple when prompted
 
 ## Support
 
-[Discord](https://discord.gg/jHWEkRdjJb) · [Issues](https://github.com/qqCLUTCHYqq/cross-road-ios-native/issues)
+[Discord](https://discord.gg/jHWEkRdjJb) · [Issues](https://github.com/qqCLUTCHYqq/reawaken-ios/issues)
 
 If you don’t like this art, make me something to replace it.
 
@@ -28,4 +28,8 @@ The working local anisette bootstrap is preserved. Apple Music APK and Apple aut
 
 Re:Awaken is a fan-made preservation utility and is not affiliated with Square Enix or Disney. No game content, saves, Apple credentials, sessions, private keys, or device identifiers are distributed.
 
-The original [Cross Road v1.0.0 release](https://github.com/qqCLUTCHYqq/cross-road-ios-native/releases/tag/v1.0.0) remains available as a rollback point.
+The original [Cross Road v1.0.0 release](https://github.com/qqCLUTCHYqq/reawaken-ios/releases/tag/v1.0.0) remains available as a rollback point.
+
+## Repository migration
+
+The repository is now `qqCLUTCHYqq/reawaken-ios`. Re:Awaken 1.0.3 and later check this location for stable updates. Users on 1.0.2 or earlier must download and open 1.0.3 once because those older updaters require the previous repository name. Existing settings, signing identity and refresh configuration are preserved.
